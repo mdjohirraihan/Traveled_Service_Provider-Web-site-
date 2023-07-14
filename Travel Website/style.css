@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    height: 80px;
+}
+
+.nav-link{
+    text-transform: uppercase;
+
+}
+.nav-link:hover{
+    color: blue !important;
+    border-top:blue solid 1px;
+}
+.navbar-nav a{
+    transition: all 0.5s ease !important;
+}
+.navbar-nav a:hover{
+    background-color: dodgerblue;
+    padding: 20px;
+}
+
+.carousel-inner .carousel-item{
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.iframe{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* ratio 16:9 (100%/16*9 =56.25%)*/
+
+
+}
+.iframe >*{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+.quick_links li a{
+    color: aliceblue;
+    line-height: 40px;
+}
+.quick_links li a:hover{
+    color: coral;
+    
+
+}
+
+.social_link li .fa-facebook ,.fa-linkedin {
+    color: aliceblue;
+    font-size: 25px;
+    
+}
+.social_link li{
+    margin-top:10px;
+  
+}
+.social_link li .fa-twitter  {
+    color: cornflowerblue ;
+    font-size: 25px;
+}
+
+.social_link li .fa-instagram {
+    color: crimson;
+    font-size: 25px;
+}
